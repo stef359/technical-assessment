@@ -22,7 +22,7 @@ Welcome to the backend API for the Heroes-Quests app!  This API is built using [
 
 ## Running the API
 
-To run the API, run the following command in your terminal/console from the 'backend' folder:
+To run the API, run the following commands in your terminal/console from the 'backend' folder:
 
 ```
 npm install
