@@ -28,7 +28,7 @@ To run the API, run the following commands in your terminal/console from the 'ba
 npm install
 ```
 
-This will install any dependencies (such as [Express](https://expressjs.com/)) that is needed to run the API.  Then go back to your terminal/console in the 'backend' folder and run the following command:
+This will install any dependencies (such as [Express](https://expressjs.com/)) that are needed to run the API.  Then go back to your terminal/console in the 'backend' folder and run the following command:
 
 ```
 npm start
