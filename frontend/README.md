@@ -72,6 +72,8 @@ A confirmation button should appear on screen to make sure the user wants to act
 
 ## Existing Implementation
 
-The only existing implementation provided is a [http service](https://angular.io/guide/http) file and a list [component](https://angular.io/guide/component-overview) file.  The service file has a single function that makes a request to the backend API to fetch the list of heroes.  The component file uses the http service file to get this information and displays the name of each hero on screen.  HTTP configuration has already been implemented.
+The only existing implementation provided is a [http service](https://angular.io/guide/http) file and a list [component](https://angular.io/guide/component-overview) file.  The service file has a single function that makes a request to the backend API to fetch the list of heroes.  The component file uses the http service file to get this information and displays the name of each hero on screen.
+
+HTTP configuration in the app module has already been implemented.
 
 Additionally, if you would like to incorporate routing in your app, the configuration to already do so has been setup.  You only need to add routes to the [app-routing.module.ts](src/app/app-routing.module.ts) file.
