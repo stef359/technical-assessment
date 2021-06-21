@@ -30,6 +30,10 @@ This means you can do any of the following for your assessment to be considered 
 
 However, you are welcome to attempt more then 4 tasks if you would like.
 
+What we mean by attempt is that you try to complete the tasks talked about in each README.  We aren't looking for completeness or even if your code works 100% the way the requirements in the tasks specify, we are looking for your coding style and thought process so make sure you are filling out the [devlog](devlog/README.md) folder with your updates as you are coding this assessment.  See the markdown file in the devlog folder for more information on what we would like to see in this file.
+
+**Out of all the tasks we ask you to do we require you to at least keep this [devlog folder](devlog/README.md) up to date as it will help us the most when reviewing your assessment.**
+
 ## Installation Requirements
 
 Below is what you'll need to install on your computer to get started with this application:
