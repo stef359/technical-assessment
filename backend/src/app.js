@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 app.use(cors({ origin: true }));
 
 // The routers of the app
-app.use('/heroes', heroesRouter());
+app.use(heroesRouter());
 app.use(questsRouter());
 
 // Initial base route

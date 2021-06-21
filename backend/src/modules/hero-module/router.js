@@ -13,14 +13,14 @@ export function heroesRouter() {
     /**
      * Gets all hereos
      */
-    router.get('/', (req, res) => {
+    router.get('/heroes', (req, res) => {
         res.send(HeroesDB.getInstance().getHeroes());
     });
 
     /**
      * Gets a single hero by id
      */
-    router.get('/:id', (req, res) => {
+    router.get('/heroes/:id', (req, res) => {
         const id = req.params.id;
         const hero = HeroesDB.getInstance().getHero(id);
 
@@ -35,7 +35,7 @@ export function heroesRouter() {
     /**
      * Creates a hero
      */
-    router.post('/', (req, res) => {
+    router.post('/heroes', (req, res) => {
         const body = req.body;
         const hero = new Hero(body);
         HeroesDB.getInstance().createHero(hero);
@@ -45,7 +45,7 @@ export function heroesRouter() {
     /**
      * Updates a hero by id
      */
-    router.patch('/:id', (req, res) => {
+    router.patch('/heroes/:id', (req, res) => {
         const id = req.params.id;
         const body = req.body;
 
@@ -61,7 +61,7 @@ export function heroesRouter() {
     /**
      * Deletes a hero by id
      */
-    router.delete('/:id', (req, res) => {
+    router.delete('/heroes/:id', (req, res) => {
         const id = req.params.id;
 
         const hero = HeroesDB.getInstance().getHero(id);
