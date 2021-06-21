@@ -11,7 +11,7 @@
 
 The purpose of keeping a devlog is to help us see all the work you put in when attempting at least 4 tasks either in the frontend or backend folders.  For instance, say you don't know anything about web APIs, express, and node and you decide to attempt the backend tasks.  What we would like to see in your devlog is how you had to research those technologies first before starting.  Another example could be you run into a breaking bug that took you 2 days to fix, giving you less time to work on other tasks.
 
-We use this devlog to account for any of these problems or roadblocks so we can adjust our criteria as necessary.  Someone who knows full-stack web development will be graded very differently then someone who doesn't know full-stack web development.
+We use this devlog to see how you solve problems you run into as you are developing. Research is an essential component to being a member of our team and it is a great way to learn new things! 
 
 ## Structure
 
