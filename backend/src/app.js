@@ -2,6 +2,7 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import { heroesRouter } from './modules/hero-module/router.js';
+import { questsRouter } from './modules/quest-module/router.js';
 
 const app = express();
 
@@ -14,6 +15,7 @@ app.use(cors({ origin: true }));
 
 // The routers of the app
 app.use('/heroes', heroesRouter());
+app.use(questsRouter());
 
 // Initial base route
 app.get('/', (req, res) => {

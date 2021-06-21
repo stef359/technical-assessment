@@ -2,6 +2,11 @@ import express from 'express';
 import { HeroesDB } from '../../database/HeroesDB.js';
 import { Hero } from '../../types/Hero.js';
 
+/**
+ * Returns the Heroes Module express router
+ * 
+ * @returns {express.Router} The heroes module express router
+ */
 export function heroesRouter() {
     const router = express.Router();
 

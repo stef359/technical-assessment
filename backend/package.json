@@ -5,7 +5,7 @@
   "main": "./src/app.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --runInBand",
     "start": "node src/app.js"
   },
   "author": "SecurEd Inc.",
@@ -15,5 +15,14 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.5",
+    "@types/jest": "^26.0.23",
+    "@types/node": "^15.12.4",
+    "babel-jest": "^27.0.2",
+    "jest": "^27.0.4",
+    "supertest": "^6.1.3"
   }
 }
