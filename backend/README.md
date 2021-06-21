@@ -54,7 +54,7 @@ See the root level [README](../README.md) for the database schema.
 
 You will be assessed on how clean and documented your code is for the tasks you decide to attempt.  We have installed [Jest](https://jestjs.io/), a javascript testing framework, and [Supertest](https://www.npmjs.com/package/supertest), a express router jest tool, so you can write tests for your routes if you so choose.  An example test file using these can be found [here](src/modules/hero-module/Heroes.spec.ts).
 
-Remember, its ok if you don't complete everything associated with each task, we want to see an attempt so we can see how you code.
+Remember, it's ok if you don't complete everything associated with each task, we want to see an attempt so we can see how you code.
 
 ### Task 1 - Getting Quests for a Hero
 
