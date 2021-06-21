@@ -46,7 +46,7 @@ npm test
 
 ## Tasks
 
-The backend tasks will have you creating the Quests module.  The Heroes module has already been provided, you can see those routes at [Existing Routes](#existing-routes).  Where you should define your quest routes are located at [this router](src/modules/quest-module/router.js), this router is already hooked up in [app.js](src/app.js).  Feel free to use the Heroes module as a example to get the hang of express but we want to see how you code and how you would organize/make things more efficient.
+The backend tasks will have you create the Quests module for this application.  The Heroes module has already been provided, you can see those routes at [Existing Routes](#existing-routes).  Where you should define your quest routes are located at [this router](src/modules/quest-module/router.js), this router is already hooked up in [app.js](src/app.js).  Feel free to use the Heroes module as a example to get the hang of express but we want to see how you code and how you would organize/make things more efficient.
 
 See the root level [README](../README.md) for the database schema.
 
