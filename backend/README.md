@@ -36,7 +36,7 @@ npm start
 
 This will start the development API on http://localhost:3000.  If you have something else running on port 3000 on your machine, turn it off and retype the command.
 
-You'll know the API is working if you see the message "Welcome to the Backend API!" when going to http://localhost:3000.
+You'll know the API is working if you see the message "Welcome to the Backend API!" when going to http://localhost:3000 in your browser.
 
 To run tests run the following command:
 
