@@ -58,7 +58,7 @@ GET http://localhost:3000/heroes/:id/quests
 
 Route ID refers to the Hero's ID
 
-| Status Code | Response Body |
+| HTTP Status Code | Response Body |
 | --- | --- |
 | 200 | An array of Quests belonging to a Hero |
 | 404 | Hero was not found for given ID |
@@ -82,7 +82,7 @@ Body (in JSON format)
 
 Route ID refers to the Hero's ID
 
-| Status Code | Response Body |
+| HTTP Status Code | Response Body |
 | --- | --- |
 | 201 | Quest was added to the database |
 | 404 | Hero was not found for given ID |
@@ -105,7 +105,7 @@ Body (in JSON format) - Partial Quest Object
 
 Route heroId refers to the Hero's ID, questId refers to the Quest's ID
 
-| Status Code | Response Body |
+| HTTP Status Code | Response Body |
 | --- | --- |
 | 204 | Quest was updated in the database |
 | 400 | Route heroId does not match the Quest's heroId in database |
@@ -129,7 +129,7 @@ Body (in JSON format) - Partial Quest Object
 
 Route heroId refers to the Hero's ID, questId refers to the Quest's ID
 
-| Status Code | Response Body |
+| HTTP Status Code | Response Body |
 | --- | --- |
 | 204 | Quest was deleted in the database |
 | 400 | Route heroId does not match the Quest's heroId in database |
@@ -147,7 +147,7 @@ GET http://localhost:3000/heroes
 
 ---
 
-| Status Code | Response Body |
+| HTTP Status Code | Response Body |
 | --- | --- |
 | 200 | An array of Heroes |
 
@@ -157,7 +157,7 @@ GET http://localhost:3000/heroes/:id
 
 ---
 
-| Status Code | Response Body |
+| HTTP Status Code | Response Body |
 | --- | --- |
 | 200 | A single Hero |
 | 404 | Hero was not found |
@@ -180,7 +180,7 @@ Body (in JSON format)
 
 ---
 
-| Status Code | Response Body |
+| HTTP Status Code | Response Body |
 | --- | --- |
 | 201 | Hero was created |
 
@@ -200,7 +200,7 @@ Body (in JSON format) - Partial Hero Object
 
 ---
 
-| Status Code | Response Body |
+| HTTP Status Code | Response Body |
 | --- | --- |
 | 204 | The hero was updated |
 | 404 | The hero to update was not found |
@@ -211,7 +211,7 @@ DELETE http://localhost:3000/heroes/:id
 
 ---
 
-| Status Code | Response Body |
+| HTTP Status Code | Response Body |
 | --- | --- |
 | 204 | The hero was deleted |
 | 404 | The hero to delete was not found |
