@@ -2,7 +2,7 @@
 
 Welcome to the frontend folder.  This folder uses [Angular 2+](https://angular.io/) and [NodeJS](https://nodejs.org/).  Make sure you have downloaded everything required in the [README](../README.md) at the root of this repository before starting.
 
-**Note: There is a very big difference between AngularJS and Angular 2+.  This project was built in Angular 2+ so if you look up any troubleshooting make sure its for Angular 2+.**
+**Note: There is a very big difference between AngularJS and Angular 2+.  This project was built in Angular 2+ so if you look up any docs for troubleshooting make sure its for Angular 2+.**
 
 ## Table of Contents
 
