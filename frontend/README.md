@@ -31,7 +31,7 @@ This command will install all the Angular dependencies needed to run the fronten
 ng serve
 ```
 
-This command will tell Angular to build the development server on http://localhost:4200.  If you have another process running on port 4200 on your machine, turn it off and retype the command.
+This command will tell Angular to build the development server on http://localhost:4200.  If you have another process running on port 4200 on your machine, you must find and terminate that process first, then rerun the command to serve the Angular application.
 
 You'll know the frontend is working if you see a UI on screen when going to http://localhost:4200 in your browser.  The UI will display a list of hero names if you add some to the backend API using [Postman](https://www.postman.com/).
 
