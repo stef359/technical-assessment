@@ -25,7 +25,7 @@ To run the frontend, you use the following Node and Angular CLI commands from yo
 npm install
 ```
 
-This command will install all the Angular dependencies needed to run the frontend.  To run the frontend and see your changes you make locally, run the following:
+This command will install all the Angular dependencies needed to run the frontend application.  To start the application and see your changes you make locally, run the following:
 
 ```
 ng serve
