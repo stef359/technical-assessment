@@ -43,7 +43,7 @@ The frontend tasks will have you interface with the [backend API](../backend/REA
 
 - Seeing a individual hero's profile
 - Creating a new hero
-- Updating a existing hero
+- Updating an existing hero
 - Deleting a old hero
 
 See the root level [README](../README.md) for the database schema.
