@@ -50,7 +50,7 @@ See the root level [README](../README.md) for the database schema.
 
 ### Criteria
 
-You will be assessed on how clean and documented your code is for the tasks you decide to attempt.  Everything you need to run the Angular app is provided.  It is up to you whether you want to write your own CSS or use CSS packages such as [Bulma](https://bulma.io/), [Bootstrap](https://getbootstrap.com/), or even [Angular Material](https://material.angular.io/).
+You will be assessed on how clean and documented your code is for the tasks you decide to attempt.  Everything you need to run the Angular app is provided.  It is up to you whether you want to write your own CSS or use CSS packages such as [Bulma](https://bulma.io/), [Bootstrap](https://getbootstrap.com/), or [Angular Material](https://material.angular.io/).
 
 Remember, it's ok if you don't complete everything associated with each task, we want to see an attempt so we can see how you code.
 
