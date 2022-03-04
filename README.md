@@ -1,4 +1,4 @@
-# SecurEd Technical Assessment
+# Cyber4All/SecurEd Technical Assessment
 
 First, we want to thank you for taking time out of your schedule to complete this technical assessment.  Being a student keeps you busy and is hard work so thank you for taking this assessment as it helps us guage where you are currently as a developer.
 
