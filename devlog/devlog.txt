@@ -1,0 +1,38 @@
+Dec 22/2022:
+
+I downloaded the applications that were required to accomplish the tasks. I choose to do the 4 backend tasks as my option. 
+I read the documentation and I started watching JavaScrpit tutorials on Youtube since I am not familiar with it. 
+I only have exepreice with Java and I think it won't take a while for me to get used to this new language.
+Resources:
+https://www.youtube.com/watch?v=PkZNo7MFNFg
+https://www.w3schools.com/
+
+Dec 23/2022:
+
+As I've learned basic knowledge about JavaScrpit yesterday, today I am primarily focusing on learning about API's because that is something
+I'm also not fimiliar with. I plan to watch the videos I see on youtube about it, and with what I learn I plan to start working on the tasks 
+as soon as possible.
+
+Dec 24/2022:
+
+I started today and it took me a very long time to initiate the proccess becasue I felt stuck. I went through the files
+to see that the quest files were all empty. I understood a lot after that. I started with the "types" folder and to make things easier I 
+copied the heroes file from the folder and pasted it to the quests file. I then changed all the variables and extras so it can fit the 
+quests file and work with it. I did that for the data bases too.
+
+Dec 26/2022:
+
+I planned to start the first task today and it went accordingly. I used the frame from a heroes method which gets all heroes together
+and changed its variables so it can work with quests instead. I did the same as well for the second task and as everything was going well 
+until I hit a bloackade when it came to the third task which requires the API to recognize two IDs. One for the hero and one for the quest.
+I have been trying a lot of different ways to make it work but I keep ending up with the same result on Postman, "Not Found". I am using the
+frame from the "updating a hero" method I found in the router file. My only problem is using the id variables right so it can recognize both
+the hero and the quest when I try to update it. I will try more tommorrow.
+
+Dec 27/2022:
+
+Today I had spent around 2 hours trying to figure out why my third backend task would not work. I tried everything different only
+to realize that the path was pasted wrong in the code. I must've not selcted the whole url when copying because the reason the code
+was not running right was it not having the first backslash. After figuring that out I tested it on Postman again to see that it was working.
+The fourth task was simple and I completed it in a short amount of time with no stress. The only thing that had me jepordized me was whenever
+I tested the delete task, both the hero and the quest would be deleted when calling for the quest.
